@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+	<id>workflow_doctopdf</id>
+	<name>Workflow doc-to-pdf converter</name>
+	<description>When a doc file is uploaded, a pdf version is created in a background job</description>
+
+	<licence>AGPL</licence>
+	<author>Joas Schilling</author>
+
+	<version>0.5.0</version>
+
+	<types>
+		<filesystem/>
+	</types>
+	<dependencies>
+		<owncloud min-version="9.1" max-version="9.1" />
+	</dependencies>
+</info>

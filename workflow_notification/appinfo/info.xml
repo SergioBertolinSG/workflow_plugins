@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info>
+	<id>workflow_notification</id>
+	<name>Workflow notification plugin</name>
+	<description>Can send notifications on file actions using the engine of the Workflow app.</description>
+
+	<licence>AGPL</licence>
+	<author>Joas Schilling</author>
+
+	<version>0.5.0</version>
+
+	<types>
+		<filesystem/>
+	</types>
+	<dependencies>
+		<owncloud min-version="9.1" max-version="9.1" />
+	</dependencies>
+</info>
